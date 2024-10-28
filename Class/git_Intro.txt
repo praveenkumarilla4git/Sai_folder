@@ -1,0 +1,86 @@
+Shell
+scripts sharing (git hub)
+
+10 members 
+
+Flow chart/Algorithm
+
+How to write script to install python or git :
+
+1. which user sudo or normal?
+2. If normal user throw error
+3. if admin sudo access is there then we need to proceed for installation
+4. proceed with installation
+5. if any error occurs in installation we need to tell user, otherwise we can proceed
+
+git advantages:
+who did the code
+when did they write the code 
+we can go back to previous version without much hassle 
+branching
+master --> sub_sai branch --> PR --> merge --> master update
+create a branch make changes if all good we merge the code to master/main
+collabaration
+backup and security (key pairs authentication)
+
+GIT is popular now and decentralized version control system
+
+
+Decentralized (Distribution) vs Centralised
+
+git repository means it will store code
+
+repository --> just like a folder it will save some code with some features mentioned above
+
+before we send code to repo we need authentication
+
+Git push 
+username/password --> every time we need to give
+username/key --> it will be one time and secured
+
+1. first level of security
+username/password
+if stolen it is a problem
+
+2. secondlevel authentication key
+RSA tokens (30 second)
+MS authenticator (30 second)
+
+first  --> public key ()
+second --> private key ()
+
+github --> public key
+laptop --> private key
+
+data is transefered only when we have private key with us
+
+github --> public key server
+password --> private key with user
+place public key in server and keep private key with you
+
+3. third level of security
+finger prints, palm, face unlock (physical presence)
+public key in server (here in github)
+private key is with you (in our laptop)
+
+
+What is a key pair
+public and private keys
+
+how to generate a key pair for SSH
+SSH --> secured shell
+ssh-keygen -f <filename>
+
+HTTPS --> https://github.com/praveenkumarilla4git/Sai_folder.git (username and password)
+SSH: --> git@github.com:praveenkumarilla4git/Sai_folder.git --> ssh key (public and private key)
+
+
+
+
+
+
+
+
+
+
+
